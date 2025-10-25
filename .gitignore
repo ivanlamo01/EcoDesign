@@ -1,0 +1,23 @@
+# Root ignores (aplican a subcarpetas)
+# Node/Next build artifacts
+**/node_modules/
+**/.next/
+**/.turbo/
+**/.vercel/
+**/.env*
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+.idea/
+.vscode/
+
+# Coverage
+coverage/
+
+# Dist/temps
+dist/
+build/
+tmp/

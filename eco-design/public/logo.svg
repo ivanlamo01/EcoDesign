@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- SVG contenedor que usa la imagen original EXACTA recortada en un círculo (sin cuadrado) -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="EcoDesign logo circular">
+  <defs>
+    <clipPath id="circleClip">
+      <circle cx="256" cy="256" r="256" />
+    </clipPath>
+  </defs>
+
+  <!-- Imagen raster original enlazada desde /public; se recorta a círculo para mantener el diseño exacto -->
+  <image href="/logo.jpg" x="0" y="0" width="512" height="512" preserveAspectRatio="xMidYMid slice" clip-path="url(#circleClip)"/>
+
+  <!-- Borde opcional suave (comentado). Descomentar si querés un borde blanco alrededor del círculo. -->
+  <!-- <circle cx="256" cy="256" r="254" fill="none" stroke="white" stroke-width="4" opacity="0.9"/> -->
+</svg>
